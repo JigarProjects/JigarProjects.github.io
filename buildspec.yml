@@ -1,5 +1,14 @@
 version: 0.2
 
+env:
+  variables:
+    REPOSITORY_URI:
+      AWS_DEFAULT_REGION: us-east-1
+      AWS_ACCOUNT_ID: 901592753221
+      IMAGE_TAG: latest
+      IMAGE_REPO_NAME: personal_website
+
+
 phases:
   pre_build:
     commands:
